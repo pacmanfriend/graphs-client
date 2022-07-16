@@ -1,5 +1,5 @@
 <template>
-    <div class="">
+    <div class="min-w-full">
         <div class="p-2">
             <label class="text-lg">Количество вершин: </label>
             <input type="number" min="2" v-model="vertexCount" />
@@ -17,7 +17,7 @@ export default {
     },
 };
 </script>
-<style scoped>
+<style>
 input {
     width: 50px;
 }
